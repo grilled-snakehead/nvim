@@ -36,6 +36,8 @@ git clone https://github.com/grilled-snakehead/nvim.git ~/.config/nvim
 ```
 Ensure that you have Git installed on your system before running these commands.
 
+You can update with `git fetch` or `git pull`
+
 ## Usage
 1. After cloning the repository, navigate to the `~/.config/nvim` directory.
 2. Open the `init.lua` file to customize your nvim configurations according to your preferences.

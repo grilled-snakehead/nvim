@@ -23,6 +23,7 @@ mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 ```
 
+### Installation with my template
 To use this template, you can clone the repository using either of the following commands:
 
 ```bash
@@ -37,6 +38,13 @@ git clone https://github.com/grilled-snakehead/nvim.git ~/.config/nvim
 Ensure that you have Git installed on your system before running these commands.
 
 You can update with `git fetch` or `git pull`
+
+Then you can open nvim with
+```bash
+nvim
+```
+
+It is recommended to run `:LazyHealth` after installation. This will load all plugins and check if everything is working correctly.
 
 ## Usage
 1. After cloning the repository, navigate to the `~/.config/nvim` directory.
